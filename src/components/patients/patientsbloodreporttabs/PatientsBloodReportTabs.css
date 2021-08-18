@@ -1,0 +1,9 @@
+.tab-container{
+    border-bottom:1px solid blue;
+}
+
+.tab-header{
+    width:27em;
+    font-size:0.8em;
+    font-weight: bold;
+}

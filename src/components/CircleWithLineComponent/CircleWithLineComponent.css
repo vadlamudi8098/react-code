@@ -1,0 +1,23 @@
+.horizontal-line-circle-container{
+    width: 100px;
+    height: 4px;
+    background-color:grey;
+    position: relative;
+    border-radius:10px;
+}
+
+.horizontal-line{  
+    height: 4px;
+    position: relative;
+}
+.dot {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    border: solid 1px black;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+   
+}

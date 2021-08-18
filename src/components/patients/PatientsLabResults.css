@@ -1,0 +1,114 @@
+.patients-lab-results-container{
+    display: flex;
+    flex-direction: column;
+    margin:1em;
+}
+
+.patients-info-header-container{
+    border-bottom:1px solid grey;
+}
+.navigation-back-span{
+    font-size: 1em;
+    font-weight: bold;
+    color: blue
+}
+.patients-lab-results-nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.refresh-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     color: blue;
+    font-size: 1.2em;
+    width: 12%;
+    margin-right: 1em;
+}
+
+.patient-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:1em;
+    width:80%;
+    margin-bottom: 2em;
+    
+}
+.patient-info-data-column{
+    display: flex;
+    flex-direction: column;
+}
+.patient-info-label{
+    font-size: 12px;
+    color:grey;
+}
+.patient-data-span{
+    font-size:14px;
+    font-weight:bold;
+}
+
+.patients-date-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid grey;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 10px;
+}
+.patients-date-selector-div{
+    display:flex;
+    flex-direction:column;
+}
+.patients-status-container{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-end;
+}
+.patients-download-icons-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+.status-span{
+    font-family: bold;
+    font-size: 2em;
+}
+.eta-span{
+    font-size:12px;
+    font-style: italic;
+}
+.staus-icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+.buttons-container{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    margin-top: 1em;
+    padding:1em;
+}
+
+.test-tab-buttons-container{
+    display:flex;
+    flex-direction: row; 
+}
+.test-tab-buttons{
+    height: 3em;
+    font-size: 1em;
+    padding:1em;
+    font-weight:bold;
+}
+.additional-test-button{
+    height: 3em;
+    font-size: 1em;
+    padding:1em;
+    font-weight:bold;
+    color:blue;
+}

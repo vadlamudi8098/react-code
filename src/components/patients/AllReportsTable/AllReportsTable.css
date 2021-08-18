@@ -1,0 +1,14 @@
+.all-reports-table-container{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    margin:1em;
+}
+.all-reports-visual-ref-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.font-weight-bold{
+    font-weight:bold;
+}

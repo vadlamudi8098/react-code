@@ -1,0 +1,15 @@
+.historical-result-table-container{
+    margin:1em;
+    flex-direction: column;
+}
+.historical-result-header-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.historical-result-icons-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
